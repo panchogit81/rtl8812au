@@ -197,6 +197,7 @@ static struct usb_device_id rtw_usb_id_tbl[] = {
 	{USB_DEVICE(0x056E, 0x400E), .driver_info = RTL8821}, /* ELECOM -  ELECOM */
 	{USB_DEVICE(0x056E, 0x400F), .driver_info = RTL8821}, /* ELECOM -  ELECOM */
 	{USB_DEVICE(0x0411, 0x0242), .driver_info = RTL8821}, /* ELECOM - WDC-433DU2H */
+	{USB_DEVICE(0x2357, 0x0120), .driver_info = RTL8821}, /* TPLINK - Archer T2U PLUS */	
 	{USB_DEVICE(0x2019, 0xAB32), .driver_info = RTL8821}, /* Planex - GW-450S */
 	{USB_DEVICE(0x0846, 0x9052), .driver_info = RTL8821}, /* Netgear - A6100 */
 	{USB_DEVICE(0x0411, 0x029B), .driver_info = RTL8821}, /* Buffalo - WI-U2-433DHP */
